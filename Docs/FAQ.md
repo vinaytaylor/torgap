@@ -76,11 +76,11 @@ The ultimate goal of the Torgap architecture is to separate keys and processes i
 
 ### How is Torgap used in the Gordian System?
 
-Torgaps isolate clients, servers, and microservices in the [Gordian system](https://github.com/BlockchainCommons/Gordian). Currently, there are two Torgaps as shown in the app map, below. The mobile [Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS) and the full-node [Gordian Server](https://github.com/BlockchainCommons/GordianServer-macOS) are connected by a Torgap. There is also a Torgap between the Gordian Wallet and our first microservice, the [Spotbit pricing server](https://github.com/BlockchainCommons/spotbit). **{CAN WE INCLUDE A KEY IN THE DIAGRAM TO EXPLAIN WHAT EACH ICON MEANS... TOR=ONION, AIR=AIRGAP; AND CAN WE ADD "QuickConnect" text between the Wallet and Server?]**
+Torgaps isolate clients, servers, and microservices in the [Gordian system](https://github.com/BlockchainCommons/Gordian). Currently, there are two Torgaps as shown in the app map, below. The mobile [Gordian Wallet](https://github.com/BlockchainCommons/GordianWallet-iOS) and the full-node [Gordian Server](https://github.com/BlockchainCommons/GordianServer-macOS) are connected by a Torgap. There is also a Torgap between the Gordian Wallet and our first microservice, the [Spotbit pricing server](https://github.com/BlockchainCommons/spotbit).
 
 ![](https://raw.githubusercontent.com/BlockchainCommons/Gordian/master/Images/appmap.jpg)
 
-Torgaps are usually not built around web services **[CAN WE ELABORATE ON THIS WEB SERVICES POINT, WHY ARE THEY NOT USED?]**, but (as in our Gordian System) are instead links for services of other types.
+Torgaps are usually not built around web services, but (as in our Gordian System) are instead links for services of other types.
 
 ### What is QuickConnect?
 
